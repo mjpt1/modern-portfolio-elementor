@@ -1,3 +1,31 @@
+<!-- gen:header -->
+<p align="center"><img src=".github/cover.svg" alt="Modern Portfolio · Elementor" width="100%"></p>
+
+<h1 align="center">Modern Portfolio · Elementor</h1>
+<p align="center"><b>پورت پورتفولیوی مدرن به وردپرس با Hello Elementor</b><br><i>Modern portfolio ported to WordPress + Elementor child theme</i></p>
+<p align="center"><img alt="WordPress" src="https://img.shields.io/badge/-WordPress-ec4899?style=for-the-badge"> <img alt="Elementor" src="https://img.shields.io/badge/-Elementor-ec4899?style=for-the-badge"> <img alt="PHP" src="https://img.shields.io/badge/-PHP-ec4899?style=for-the-badge"> <img alt="CSS" src="https://img.shields.io/badge/-CSS-ec4899?style=for-the-badge"></p>
+
+<div dir="rtl">
+
+## ✨ امکانات
+
+- Child theme با انیمیشن و RTL
+- قالب‌های آماده‌ی import در المنتور
+- شورت‌کدهای اختصاصی
+
+</div>
+
+## 🚀 Quick start
+
+```bash
+Install hello-child-mj/ as a theme → import elementor/templates/
+```
+
+---
+
+<!-- gen:docs -->
+## 📚 مستندات کامل · Full documentation
+
 # Modern Portfolio → WordPress (Hello Elementor + Elementor)
 
 پورت پورتفولیوی Next.js به **WordPress + Hello Elementor + Elementor** با child theme برای انیمیشن‌ها و شل سایت.
@@ -98,3 +126,8 @@ Each string has `mj-only-fa` / `mj-only-en` (or block variants). Locale switcher
 ## Source
 
 Ported from `modern-portfolio` (Next.js) locales, layout, and Framer/Swiper/particles behavior.
+
+---
+
+<p align="center">ساخته‌شده توسط <a href="https://mahsen81.ir"><b>محسن جباره‌اصل</b></a> — برنامه‌نویسی، طراحی سایت، ربات و هوش مصنوعی<br>
+Built by <a href="https://mahsen81.ir">Mohsen Jabbareh-Asl</a> · ⭐ اگر مفید بود، ستاره بدهید · Need a custom version? <a href="https://mahsen81.ir">Get in touch</a></p>
