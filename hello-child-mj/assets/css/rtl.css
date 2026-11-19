@@ -1,0 +1,42 @@
+/* RTL refinements beyond dir= attribute */
+
+[dir="rtl"] body.mj-portfolio {
+  text-align: right;
+}
+
+[dir="rtl"] .mj-input[type="email"] {
+  text-align: start;
+  direction: ltr;
+}
+
+[dir="ltr"] body.mj-portfolio {
+  text-align: left;
+}
+
+/* Ensure Elementor text widgets inherit locale fonts */
+body.mj-locale-fa .elementor-widget-heading .elementor-heading-title,
+body.mj-locale-fa .elementor-widget-text-editor {
+  font-family: var(--mj-font-fa);
+}
+
+body.mj-locale-en .elementor-widget-heading .elementor-heading-title,
+body.mj-locale-en .elementor-widget-text-editor {
+  font-family: var(--mj-font-en);
+}
+
+/* Keep decorative peeks from causing RTL horizontal overflow chaos */
+[dir="rtl"] .mj-about.mj-page,
+[dir="ltr"] .mj-about.mj-page {
+  overflow-x: clip;
+}
+
+/* Side nav clearance (nav on start/left in RTL, end/right in LTR at xl) */
+@media (min-width: 1200px) {
+  [dir="rtl"] .mj-home__content,
+  [dir="rtl"] .mj-about .mj-container {
+    padding-inline-start: 4.5rem;
+  }
+  [dir="ltr"] .mj-about .mj-container {
+    padding-inline-end: 4.5rem;
+  }
+}

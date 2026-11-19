@@ -1,0 +1,34 @@
+{
+  "name": "MJ Portfolio Kit Notes",
+  "description": "Not a full binary Elementor Kit (.zip). Apply these tokens in Elementor → Site Settings, or rely on child-theme CSS variables.",
+  "colors": {
+    "primary": "#131424",
+    "secondary": "#393A47",
+    "accent": "#F13024",
+    "wipe_1": "#2e2257",
+    "wipe_2": "#3b2d71",
+    "wipe_3": "#4b3792"
+  },
+  "typography": {
+    "fa": "Vazirmatn",
+    "en": "Sora"
+  },
+  "pages": ["home", "about", "services", "work", "testimonials", "contact"],
+  "shortcodes": {
+    "home": "[mj_home]",
+    "about": "[mj_about]",
+    "services": "[mj_services]",
+    "work": "[mj_work]",
+    "testimonials": "[mj_testimonials]",
+    "contact": "[mj_contact]"
+  },
+  "animations_in_child_theme": [
+    "page-wipe",
+    "fade-in",
+    "particles",
+    "swiper",
+    "countup",
+    "tabs",
+    "locale-rtl"
+  ]
+}

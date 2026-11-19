@@ -1,0 +1,40 @@
+{
+  "title": "MJ Home",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "mjhsec01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "height": "min-height",
+        "custom_height": { "unit": "vh", "size": 100, "sizes": [] },
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "mjhcol01",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+          "elements": [
+            {
+              "id": "mjhwid01",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "isInner": false,
+              "settings": {
+                "shortcode": "[mj_home]"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
